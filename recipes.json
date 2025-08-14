@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "image": "fotos-platos/espaguetis-carbonara.jpg",
+        "ingredients": ["Spaghetti", "huevos", "bacon", "queso parmesano", "pimienta negra"],
+        "steps": ["Hervir la pasta", "Freír el bacon", "Mezclar huevos y queso", "Combinar todo"],
+        "category": "Italiana",
+        "time": "20 min",
+        "difficulty": "Fácil"
+    },
+    {
+        "id": 2,
+        "title": "Tacos al Pastor",
+        "image": "fotos-platos/tacos-al-pastor.webp",
+        "ingredients": ["Tortillas", "Cerdo", "Piña", "Cebolla", "Cilantro", "Achiote"],
+        "steps": ["Marinar la carne", "Asar el cerdo", "Calentar las tortillas", "Montar los tacos con piña y cebolla"],
+        "category": "Mexicana",
+        "time": "30 min",
+        "difficulty": "Media"
+      },
+      {
+        "id": 3,
+        "title": "Sushi Roll (California)",
+        "image": "fotos-platos/california-sushi-rolls-square.jpg",
+        "ingredients": ["Arroz para sushi", "Alga nori", "Cangrejo", "Aguacate", "Pepino", "Vinagre de arroz"],
+        "steps": ["Preparar arroz", "Colocar ingredientes sobre nori", "Enrollar", "Cortar en piezas"],
+        "category": "Japonesa",
+        "time": "45 min",
+        "difficulty": "Alta"
+      },
+      {
+        "id": 4,
+        "title": "Pad Thai",
+        "image": "fotos-platos/pad-thai.jpg",
+        "ingredients": ["Fideos de arroz", "Tofu", "Huevos", "Brotes de soja", "Cacahuetes", "Salsa de tamarindo"],
+        "steps": ["Hervir los fideos", "Saltear tofu y huevo", "Añadir salsa y fideos", "Servir con cacahuetes"],
+        "category": "Tailandesa",
+        "time": "25 min",
+        "difficulty": "Media"
+      },
+      {
+        "id": 5,
+        "title": "Curry de Garbanzos",
+        "image": "fotos-platos/curry-de-garbanzos.jpg",
+        "ingredients": ["Garbanzos", "Tomate", "Leche de coco", "Curry en polvo", "Espinacas"],
+        "steps": ["Saltear tomate", "Añadir garbanzos y curry", "Verter leche de coco", "Cocinar y añadir espinacas"],
+        "category": "Vegana",
+        "time": "20 min",
+        "difficulty": "Fácil"
+      },
+      {
+        "id": 6,
+        "title": "Tiramisú",
+        "image": "fotos-platos/tiramisu.webp",
+        "ingredients": ["Bizcochos", "Café", "Queso mascarpone", "Huevos", "Cacao en polvo"],
+        "steps": ["Preparar crema de mascarpone", "Remojar bizcochos en café", "Alternar capas", "Refrigerar y espolvorear cacao"],
+        "category": "Postre",
+        "time": "30 min + enfriado",
+        "difficulty": "Media"
+      },
+      {
+        "id": 7,
+        "title": "Ramen Japonés",
+        "category": "Japonesa",
+        "image": "fotos-platos/ramen-japones.jpg",
+        "time": "45 minutos",
+        "difficulty": "Media",
+        "ingredients": [
+          "150 g de fideos ramen",
+          "2 huevos",
+          "1 litro de caldo de pollo o cerdo",
+          "2 cucharadas de salsa de soja",
+          "1 cucharada de miso (opcional)",
+          "1 diente de ajo picado",
+          "1 trozo pequeño de jengibre",
+          "100 g de panceta de cerdo cocida o chashu",
+          "1 cebolla de verdeo (cebolleta)",
+          "Brotes de bambú o maíz dulce (opcional)",
+          "Aceite de sésamo"
+        ],
+        "steps": [
+          "Hierve los huevos durante 6 minutos, pásalos por agua fría y pélalos.",
+          "Cocina los fideos ramen según el paquete, escúrrelos y resérvalos.",
+          "En una olla, sofríe el ajo y el jengibre con un poco de aceite de sésamo.",
+          "Añade el caldo, la salsa de soja y el miso (si usas). Cocina a fuego medio durante 10 minutos.",
+          "Coloca los fideos cocidos en un bol.",
+          "Vierte el caldo caliente sobre los fideos.",
+          "Agrega medio huevo por bol, la panceta o chashu, cebolla de verdeo picada y otros toppings al gusto.",
+          "Sirve caliente y disfruta."
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Pizza Margherita",
+        "category": "Italiana",
+        "image": "fotos-platos/pizza-margherita.jpg",
+        "time": "1 hora",
+        "difficulty": "Media",
+        "ingredients": [
+          "250 g de masa de pizza",
+          "200 g de tomate triturado",
+          "200 g de mozzarella fresca",
+          "Hojas de albahaca fresca",
+          "Aceite de oliva virgen extra",
+          "Sal"
+        ],
+        "steps": [
+          "Precalienta el horno a 220 ºC.",
+          "Extiende la masa de pizza sobre una bandeja de horno con papel vegetal.",
+          "Cubre con el tomate, sal al gusto y un chorrito de aceite.",
+          "Coloca la mozzarella en trozos por encima.",
+          "Hornea durante 10-12 minutos hasta que la masa esté dorada.",
+          "Añade albahaca fresca antes de servir."
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Ensalada Caprese",
+        "category": "Italiana",
+        "image": "fotos-platos/ensalada-caprese.jpeg",
+        "time": "10 minutos",
+        "difficulty": "Fácil",
+        "ingredients": [
+          "2 tomates grandes",
+          "200 g de mozzarella fresca",
+          "Hojas de albahaca fresca",
+          "Aceite de oliva virgen extra",
+          "Sal y pimienta"
+        ],
+        "steps": [
+          "Corta el tomate y la mozzarella en rodajas.",
+          "Alterna las rodajas en un plato (tomate, mozzarella, albahaca).",
+          "Salpimienta al gusto y rocía con aceite de oliva.",
+          "Sirve fresca como entrante o acompañamiento."
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Lasaña a la Boloñesa",
+        "category": "Italiana",
+        "image": "fotos-platos/lasagna-boloñesa.jpg",
+        "time": "1 hora 30 minutos",
+        "difficulty": "Media",
+        "ingredients": [
+          "9 placas de lasaña",
+          "300 g de carne picada de ternera",
+          "1 cebolla",
+          "2 dientes de ajo",
+          "400 g de tomate triturado",
+          "Bechamel",
+          "Queso rallado",
+          "Aceite de oliva, sal y pimienta"
+        ],
+        "steps": [
+          "Rehoga la cebolla y el ajo picado en aceite.",
+          "Agrega la carne picada y cocina hasta que se dore.",
+          "Incorpora el tomate, salpimienta y cocina 20 min.",
+          "Monta la lasaña en capas de pasta, boloñesa y bechamel.",
+          "Termina con bechamel y queso rallado por encima.",
+          "Hornea a 200 ºC durante 30 minutos. Deja reposar 10 minutos antes de servir."
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Yakitori (Brochetas de Pollo)",
+        "category": "Japonesa",
+        "image": "fotos-platos/yakitori.webp",
+        "time": "35 minutos",
+        "difficulty": "Fácil",
+        "ingredients": [
+          "300 g de pechuga de pollo",
+          "2 cucharadas de salsa de soja",
+          "1 cucharada de mirin",
+          "1 cucharada de azúcar",
+          "Cebolleta o puerro",
+          "Palitos de brocheta"
+        ],
+        "steps": [
+          "Corta el pollo y el puerro en trozos.",
+          "Enhebra en los palillos alternando pollo y puerro.",
+          "Mezcla la soja, mirin y azúcar para hacer la salsa.",
+          "Dora las brochetas en sartén o parrilla.",
+          "Pincela con la salsa mientras se cocinan.",
+          "Sirve caliente acompañado de arroz blanco."
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Onigiri (Bolas de Arroz)",
+        "category": "Japonesa",
+        "image": "fotos-platos/onigiri.jpg",
+        "time": "30 minutos",
+        "difficulty": "Fácil",
+        "ingredients": [
+          "300 g de arroz japonés",
+          "Agua para cocer",
+          "Sal",
+          "Alga nori",
+          "Relleno (atún con mayonesa, salmón, ciruela umeboshi, etc.)"
+        ],
+        "steps": [
+          "Cocina el arroz y deja que enfríe un poco.",
+          "Humedece tus manos, pon sal y forma una bola con el arroz.",
+          "Agrega el relleno en el centro y moldea en forma triangular.",
+          "Envuelve con una tira de alga nori.",
+          "Sirve frío o a temperatura ambiente como snack o almuerzo."
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Tortilla de Patatas",
+        "category": "Española",
+        "image": "fotos-platos/tortilla-española.jpg",
+        "time": "40 minutos",
+        "difficulty": "Media",
+        "ingredients": [
+          "4 huevos",
+          "500 g de patatas",
+          "1 cebolla (opcional)",
+          "Aceite de oliva",
+          "Sal"
+        ],
+        "steps": [
+          "Pela y corta las patatas en láminas finas.",
+          "Fríelas en abundante aceite a fuego medio hasta que estén blandas.",
+          "Agrega la cebolla picada si la usas y cocina hasta que esté dorada.",
+          "Escurre el aceite, bate los huevos y mezcla con las patatas.",
+          "Vierte en una sartén y cocina por ambos lados hasta dorar.",
+          "Sirve caliente o fría al gusto."
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Paella Valenciana",
+        "category": "Española",
+        "image": "fotos-platos/paella-valenciana.jpg",
+        "time": "1 hora 15 minutos",
+        "difficulty": "Alta",
+        "ingredients": [
+          "400 g de arroz bomba",
+          "1 litro de caldo de pollo",
+          "400 g de pollo",
+          "200 g de conejo",
+          "100 g de judía verde",
+          "100 g de garrofón",
+          "Tomate triturado",
+          "Aceite de oliva",
+          "Hebras de azafrán",
+          "Pimentón dulce",
+          "Sal"
+        ],
+        "steps": [
+          "Dora las carnes en la paellera con aceite.",
+          "Agrega las verduras y sofríe bien.",
+          "Añade el tomate triturado, pimentón y mezcla.",
+          "Vierte el arroz y sofríe un minuto.",
+          "Agrega el caldo caliente y el azafrán.",
+          "Cocina a fuego fuerte 10 minutos y luego suave otros 10-15.",
+          "Deja reposar 5 minutos y sirve."
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Bacalao a la Vizcaína",
+        "category": "Española",
+        "image": "fotos-platos/bacalao-vizcaina.jpg",
+        "time": "1 hora",
+        "difficulty": "Media",
+        "ingredients": [
+          "4 lomos de bacalao desalado",
+          "2 cebollas grandes",
+          "2 dientes de ajo",
+          "Pimientos choriceros (o carne de pimiento)",
+          "Aceite de oliva",
+          "Sal",
+          "Caldo de pescado"
+        ],
+        "steps": [
+          "Rehoga cebolla y ajo picados hasta que estén dorados.",
+          "Agrega la carne de pimiento choricero y cocina 10 minutos.",
+          "Tritura la salsa con caldo si hace falta.",
+          "Coloca el bacalao en la salsa y cocina a fuego suave 10-15 minutos.",
+          "Sirve caliente con pan."
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Pan con Tomate y Jamón",
+        "category": "Española",
+        "image": "fotos-platos/pan-tomate-jamon.jpg",
+        "time": "10 minutos",
+        "difficulty": "Fácil",
+        "ingredients": [
+          "4 rebanadas de pan rústico",
+          "2 tomates maduros",
+          "1 diente de ajo",
+          "Jamón serrano",
+          "Aceite de oliva virgen extra",
+          "Sal"
+        ],
+        "steps": [
+          "Tuesta el pan al gusto.",
+          "Frota con el ajo pelado.",
+          "Ralla o machaca los tomates y extiéndelos sobre el pan.",
+          "Añade sal y un chorrito de aceite de oliva.",
+          "Coloca lonchas de jamón serrano por encima.",
+          "Sirve inmediatamente."
+        ]
+      }
+
+
+
+]

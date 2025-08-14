@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recetas</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <h1>Recetas deliciosas</h1>
+
+        <div class="controls">
+            <select id="category-filter">
+                <option value="Todas">Todas</option>
+            </select>
+
+            <input type="text" id="search-input" placeholder="Buscar recetas...">
+
+            <button id="favorites-toggle" class="fav-btn" title="Mostrar solo favoritos">🤍</button>
+
+            <button id="theme-toggle" title="Cambiar tema">🌙</button>
+        </div>
+    </header>
+
+    <body>
+        <div id="recipes-container"></div>
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <img id="modal-img" alt="" alt="">
+                <h2 id="modal-title"></h2>
+                <p><strong>Tiempo:</strong> <span id="modal-time"></span></p>
+                <p><strong>Dificultad:</strong> <span id="modal-difficulty"></span></p>
+                <h3>Ingredientes</h3>
+                <ul id="modal-ingredients"></ul>
+                <h3>Pasos</h3>
+                <ol id="modal-steps"></ol>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
