@@ -41,8 +41,7 @@ function renderRecipes(recipes, category = "Todas", searchTerm = "") {
         `;
 
         card.addEventListener('click', () => {
-            localStorage.setItem('receta-seleccionada', JSON.stringify(recipe));
-            window.location.href = `detalle.html`;
+            showModal(recipe);
         });
 
         card.querySelector('.favorite-btn').addEventListener('click', (e) => {
@@ -107,11 +106,15 @@ function showModal(recipe) {
         stepsList.appendChild(li);
     });
 
-    document.getElementById('modal').classList.remove('hidden');
+    const modal = document.getElementById('modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('show');
 }
 
 document.getElementById('close-modal').addEventListener('click', () => {
-    document.getElementById('modal').classList.add('hidden');
+    const modal = document.getElementById('modal');
+    modal.classList.remove('show');
+    setTimeout(() => modal.classList.add('hidden'), 300);
 });
 
 
