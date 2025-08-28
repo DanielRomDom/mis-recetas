@@ -109,12 +109,16 @@ function showModal(recipe) {
     const modal = document.getElementById('modal');
     modal.classList.remove('hidden');
     modal.classList.add('show');
+
+    document.body.classList.add('modal-open');
 }
 
 document.getElementById('close-modal').addEventListener('click', () => {
     const modal = document.getElementById('modal');
+    modal.classList.add('hidden');
     modal.classList.remove('show');
-    setTimeout(() => modal.classList.add('hidden'), 300);
+
+    document.body.classList.remove('modal-open');
 });
 
 
